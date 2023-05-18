@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php Tutorials</title>
+    <style>
+        body 
+        {
+            position: relative;
+            background-color: rgb(61, 57, 58);
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        form
+        {
+            transform: translate(-50%, 0%);
+            position: absolute;
+            margin-top: 70px;
+            left: 50%;
+        }
+        label
+        {
+            color: yellow!important;
+            text-align: left;
+            font-size: 20px;
+            line-height: 40px;
+            font-family: sans-serif;
+            text-align: left;
+        }
+        textarea
+        {
+            background: none;
+            padding: 12px 40px;
+            color: #fff!important;
+            font-family: sans-serif;
+        }
+        input
+        {
+            background: none;
+            text-align: left;
+            padding: 14px 50px;
+            color: #fff!important;
+            font-size: 18px;
+        }
+        button 
+        {
+            background-color: yellow;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: none;
+            outline: none;
+            padding: 20px 60px;
+            border-radius: 30px;
+            font-size: 18px;
+            color: #000!important;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+
+<form action="main.php" method="get">
+    <label>
+        Full Name: 
+    </label><br>
+    <input type="name" name="name" placeholder="Full Name .....">
+    <br>
+    <label>
+        Email Address
+    </label><br>
+    <input type="email" name="mail" placeholder="Email Address .. ">
+    <br>
+    <label>
+        Phone Contact: 
+    </label><br>
+    <input type="phone" name="phone" placeholder="Contact.eg.+256789926896 ....">
+    <br>
+    <label>
+        Subject: 
+    </label><br>
+    <input type="subject" name="subject" placeholder="Subject">
+    <br>
+    <label>
+        Message: 
+    </label><br>
+    <textarea name="message" id="my_message" cols="30" rows="10" placeholder="Write your message here ..."></textarea>
+    <br>
+    <button type="submit">Submit Now</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
